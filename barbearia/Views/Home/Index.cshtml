@@ -1,0 +1,77 @@
+﻿<main class="booking-section py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="section-title">Escolha seu Barbeiro</h2>
+            <p class="section-subtitle">Selecione um profissional para ver os serviços</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- ================= BARBEIRO 1 ================= -->
+            <div class="col-md-4">
+                <div class="card barber-card text-center" onclick="toggleServices('joao')">
+                    <img src="/images/barbeiro1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">João Silva</h5>
+                        <p class="card-text">Especialista em degradê</p>
+                    </div>
+                </div>
+
+                <!-- SERVIÇOS JOÃO -->
+                <div class="services-box mt-3" id="joao" style="display:none;">
+                    <div class="service-item">
+                        Corte Tradicional <span>R$ 35</span>
+                    </div>
+                    <div class="service-item">
+                        Corte + Barba <span>R$ 55</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= BARBEIRO 2 ================= -->
+            <div class="col-md-4">
+                <div class="card barber-card text-center" onclick="toggleServices('carlos')">
+                    <img src="/images/barbeiro2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Carlos Mendes</h5>
+                        <p class="card-text">Cortes modernos</p>
+                    </div>
+                </div>
+
+                <!-- SERVIÇOS CARLOS -->
+                <div class="services-box mt-3" id="carlos" style="display:none;">
+                    <div class="service-item">
+                        Corte Moderno <span>R$ 40</span>
+                    </div>
+                    <div class="service-item">
+                        Freestyle <span>R$ 60</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= BARBEIRO 3 ================= -->
+            <div class="col-md-4">
+                <div class="card barber-card text-center" onclick="toggleServices('lucas')">
+                    <img src="/images/barbeiro3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lucas Rocha</h5>
+                        <p class="card-text">Barba premium</p>
+                    </div>
+                </div>
+
+                <!-- SERVIÇOS LUCAS -->
+                <div class="services-box mt-3" id="lucas" style="display:none;">
+                    <div class="service-item">
+                        Barba Premium <span>R$ 30</span>
+                    </div>
+                    <div class="service-item">
+                        Corte Navalhado <span>R$ 45</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</main>
