@@ -1607,7 +1607,7 @@
     {
       "parameters": {
         "method": "POST",
-        "url": "https://api.twilio.com/2010-04-01/Accounts/xxxxxxxxxxxxxx/Messages.json",
+        "url": "https://api.twilio.com/2010-04-01/Accounts/xxxxxxxxx/Messages.json",
         "authentication": "genericCredentialType",
         "genericAuthType": "httpBasicAuth",
         "sendBody": true,
@@ -1641,7 +1641,7 @@
       "alwaysOutputData": false,
       "credentials": {
         "httpBasicAuth": {
-          "id": "xxxxxxxxxxxxxx",
+          "id": "5meiOZ1kC8UD7eFo",
           "name": "Unnamed credential"
         }
       },
