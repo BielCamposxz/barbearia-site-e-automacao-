@@ -93,7 +93,10 @@ C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\barbearia.pdb
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\barbearia.genruntimeconfig.cache
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\ref\barbearia.dll
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\uv6huwxyb9-t9l5lupjl8.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\lib49iv0nd-t9l5lupjl8.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\98gtjfb6k3-3r8b2a0bt1.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\53y5fo16zq-5wap9mal9z.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\53y5fo16zq-q6tlkhw1nn.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\scopedcss\Views\Shared\_OpcoesLayout.cshtml.rz.scp.css
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\8ezulbbx28-tm6tao2uye.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\uv6huwxyb9-nkc1yre8jc.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\lib49iv0nd-nkc1yre8jc.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\g7mpdcz07p-fqwt3mu4j2.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\98gtjfb6k3-94obqy8dpa.gz

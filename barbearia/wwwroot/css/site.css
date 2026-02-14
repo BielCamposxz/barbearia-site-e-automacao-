@@ -149,3 +149,7 @@ body {
     border-radius: 11px;
     border: none;
 }
+
+.opcoes a {
+    text-decoration:none;
+}

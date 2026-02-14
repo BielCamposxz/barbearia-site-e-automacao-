@@ -1,0 +1,80 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0c0c0c;
+    margin-bottom: 60px;
+    overflow-x: hidden;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.selecionado {
+    border: 2px solid #6df1f3;
+}
+
+.barbearias {
+    padding: 5px 5px;
+    margin: 15px;
+    background-color: #4F4F4F;
+}
+
+.circle-check {
+    margin-left: 20px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #4F4F4F;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #E8E8E8;
+    flex-shrink: 0;
+}
+
+.circle-check i {
+    display: none;
+    font-size: 24px;
+}
+
+.btn-check:checked + .circle-check {
+    background-color: white; 
+}
+
+.btn-check:checked + .circle-check i {
+    display: block;
+}
+
+.btn-back {
+    background-color: #1C1C1C;
+    color: #9C9C9C;
+    border: none;
+}
+
+.btn-back:hover {
+    opacity: 1;
+    background-color: #1C1C1C;
+    color: #9C9C9C;
+}
+
+.barbeiro {
+    padding: 5px 10px;
+    margin: 15px;
+    background-color: #4F4F4F;
+    min-width: 60vw;
+}

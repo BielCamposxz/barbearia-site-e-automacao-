@@ -3,18 +3,21 @@
 }
 
 
-<div class="m-3 ms-4 me-4">
+<div class="m-3 ms-4 me-4 opcoes">
     <!-- unidade -->
-    <div class="alert alert-secondary d-flex justify-content-between align-items-center itens-agendar" role="alert" >
-        <div>
-            <i class="bi bi-shop"></i>
-            Selecionar uma unidade
-        </div>
-        <i class="bi bi-chevron-right" ></i>
+    <a asp-action="Index" asp-controller="Unidade" role="button">
+        <div class="alert alert-secondary d-flex justify-content-between align-items-center itens-agendar" role="alert">
+            <div>
+                <i class="bi bi-shop"></i>
+                Selecionar uma unidade
+            </div>
+            <i class="bi bi-chevron-right"></i>
 
-    </div>
+        </div>
+    </a>
 
     <!-- barbeiro -->
+    <a asp-action="Index" asp-controller="Barbeiro" role="button">
     <div class="alert alert-secondary d-flex justify-content-between align-items-center itens-agendar desativado" role="alert">
         <div>
             <i class="bi bi-person"></i>
@@ -23,8 +26,10 @@
         <i class="bi bi-chevron-right"></i>
 
     </div>
-     
-        <!-- serviço -->
+    </a>
+
+    <!-- serviço -->
+    <a asp-action="Index" asp-controller="AdminPage" role="button">
     <div class="alert alert-secondary d-flex justify-content-between align-items-center itens-agendar desativado" role="alert">
         <div>
             <i class="bi bi-scissors"></i>
@@ -32,8 +37,10 @@
         </div>
         <i class="bi bi-chevron-right"></i>
     </div>
+    </a>
 
     <!-- data e hora  -->
+    <a asp-action="Index" asp-controller="AdminPage" role="button">
     <div class="alert alert-secondary d-flex justify-content-between align-items-center itens-agendar desativado" role="alert">
         <div>
             <i class="bi bi-calendar4"></i>
@@ -42,6 +49,7 @@
         <i class="bi bi-chevron-right"></i>
 
     </div>
+    </a>
 
     <div class="d-grid gap-2">
         <a role="button" class="btn btn-primary agendar-btn" style="background-color: #6df1f3; color: black;">
