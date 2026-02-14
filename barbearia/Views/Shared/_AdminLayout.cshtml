@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"]</title>
+    <title>@ViewData["Title"] - barbearia</title>
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -13,35 +13,11 @@
 
 </head>
 <body>
-    <header class="hero-section text-white">
-
-        <div class="container d-flex flex-column justify-content-center align-items-center text-center h-100">
-            <img src="~/images/icone.png" height="500px" width="500px" alt="Alternate Text" />
-
-            <h2>
-                Agende <spam style="color: #6df1f3;">seu horario</spam>
-            </h2>
-
-            <p class="hero-subtitle mb-4">
-                Escolha os Serviços que desejar e agende-os no horario que preferir
-            </p>
-
-        </div>
-
-    </header>
-
-
+   
 
     @RenderBody()
 
-  
 
-    <a href="https://wa.me/5528999063041?text=Olá,%20quero%20agendar%20um%20horário%20na%20barbearia."
-       class="whatsapp-float"
-       target="_blank"
-       style="color:white;">
-        <i class="bi bi-whatsapp"></i>
-    </a>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

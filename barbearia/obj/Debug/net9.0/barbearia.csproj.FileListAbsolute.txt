@@ -82,8 +82,6 @@ C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\713
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\p2po689qps-muycvpuwrr.gz
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\hxn0tsm0rb-87fc7y1x7t.gz
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\coclj4hcq1-mlv21k5csn.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\uv6huwxyb9-rcw6t7avgi.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\lib49iv0nd-rcw6t7avgi.gz
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\staticwebassets.development.json
@@ -94,5 +92,8 @@ C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\refint\barbear
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\barbearia.pdb
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\barbearia.genruntimeconfig.cache
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\ref\barbearia.dll
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\53y5fo16zq-x2m16ggb88.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\98gtjfb6k3-jr3w50ypsa.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\scopedcss\Views\Shared\_AdminLayout.cshtml.rz.scp.css
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\uv6huwxyb9-t9l5lupjl8.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\lib49iv0nd-t9l5lupjl8.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\98gtjfb6k3-3r8b2a0bt1.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\53y5fo16zq-5wap9mal9z.gz

@@ -1,45 +1,65 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #111;
+    background-color: #0c0c0c;
+    margin-bottom: 60px;
+    overflow-x: hidden;
 }
 
-.hero-section {
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.90)), url('/images/fundo.webp') center/cover no-repeat;
-    background-attachment: scroll;
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
+
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+    .hero-section::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url('/images/fundo.webp') center center / cover no-repeat;
+        transform: scale(1.1);
+        z-index: 0;
+
+    }
+
+    .hero-section::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, #0c0c0c 0%, rgba(12,12,12,0) 100%);
+        z-index: 1;
+
+    }
+
+    .hero-section .container,
+    .hero-section nav {
+        position: relative;
+        z-index: 2;
+    }
+
 
 .brand-logo {
     font-family: 'Cinzel', serif;
@@ -58,6 +78,7 @@ body {
         color: #e6d3b3 !important;
     }
 
+
 .hero-title {
     font-family: 'Cinzel', serif;
     font-size: 4rem;
@@ -69,6 +90,7 @@ body {
     font-size: 1.3rem;
     color: #ccc;
 }
+
 
 .btn-custom {
     border: 2px solid #e6d3b3;
@@ -82,6 +104,7 @@ body {
         background: #e6d3b3;
         color: #111;
     }
+
 
 .whatsapp-float {
     position: fixed;
@@ -105,83 +128,24 @@ body {
         color: #fff;
     }
 
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #0c0c0c;
-    overflow-x: hidden;
+.itens-agendar {
+    color: white;
+    background-color: #1C1C1C;
+    border: none;
+    border-radius: 12px;
 }
 
-/* HERO COM PARALLAX */
-.hero-section {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+.itens-agendar  i {
+    color: #6df1f3;
 }
 
-    /* IMAGEM PARALLAX */
-    .hero-section::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: url('/images/fundo.webp') center center / cover no-repeat;
-        transform: scale(1.1);
-        z-index: 0;
-        will-change: transform;
-    }
-
-    /* OVERLAY GRADIENT PREMIUM */
-    .hero-section::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: linear-gradient( rgba(0,0,0,0.75), rgba(0,0,0,0.85) );
-        z-index: 1;
-    }
-
-    /* CONTEÚDO ACIMA */
-    .hero-section .container,
-    .hero-section nav {
-        position: relative;
-        z-index: 2;
-    }
-
-.services-box {
-    background-color: #1a1a1a;
-    border: 1px solid #222;
-    padding: 15px;
-    border-radius: 8px;
-    animation: fadeIn 0.3s ease-in-out;
+.desativado, .desativado i {
+    color: #828282;
 }
 
-.service-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    border-bottom: 1px solid #222;
-    color: #ccc;
-}
-
-    .service-item:last-child {
-        border-bottom: none;
-    }
-
-    .service-item span {
-        color: #e6d3b3;
-        font-weight: bold;
-    }
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.agendar-btn, .agendar-btn i {
+    color: #9C9C9C !important;
+    background-color: #4F4F4F !important;
+    border-radius: 11px;
+    border: none;
 }
