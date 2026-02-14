@@ -98,5 +98,5 @@ C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\scopedcss\View
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\8ezulbbx28-tm6tao2uye.gz
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\uv6huwxyb9-nkc1yre8jc.gz
 C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\lib49iv0nd-nkc1yre8jc.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\g7mpdcz07p-fqwt3mu4j2.gz
-C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\98gtjfb6k3-94obqy8dpa.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\g7mpdcz07p-ouvwojgpuc.gz
+C:\Users\figue\Meus projetos\barbearia\barbearia\obj\Debug\net9.0\compressed\98gtjfb6k3-qupjakm3gr.gz

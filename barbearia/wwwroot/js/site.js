@@ -14,5 +14,6 @@
     });
 }
 
-radio("barbeiro");
-radio("barbearias");
+radio("unidade-card");
+radio("servico-card");
+radio("barbeiro-card");

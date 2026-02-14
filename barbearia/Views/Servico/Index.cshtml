@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["title"] = "Serviço";
+    Layout = "_OpcoesLayout";
+}
+
+<div>
+    <h1 class="text-white fw-light text-center mt-3">
+        Escolha os servicos disponiveis
+    </h1>
+
+    <div class="d-inline">
+        <form method="post">
+            <div>
+                
+                <!-- servico 1 -->
+                <div class="servico-card d-flex align-items-center rounded-4 p-3 mb-3">
+
+                    <div class="flex-grow-1">
+                        <h5 class="mb-1 fw-semibold text-white">
+                            Corte Degradê
+                        </h5>
+
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="preco">R$ 35,00</span>
+                            <span class="tempo-badge">45 min</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="radio" class="btn-check" name="opcao" id="radio1" autocomplete="off">
+
+                        <label for="radio1" class="circle-check d-flex justify-content-center align-items-center">
+                            <i class="bi bi-check"></i>
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="servico-card d-flex align-items-center rounded-4 p-3 mb-3">
+
+                    <div class="flex-grow-1">
+                        <h5 class="mb-1 fw-semibold text-white">
+                            Corte social
+                        </h5>
+
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="preco">R$ 30,00</span>
+                            <span class="tempo-badge">40 min</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="radio" class="btn-check" name="opcao" id="radio2" autocomplete="off">
+
+                        <label for="radio2" class="circle-check d-flex justify-content-center align-items-center">
+                            <i class="bi bi-check"></i>
+                        </label>
+                    </div>
+
+                </div>
+
+
+                <!-- botoes -->
+                <div class="d-flex justify-content-between mt-4">
+                    <a class="btn btn-outline-light rounded-pill px-4"
+                       asp-action="Index"
+                       asp-controller="Home">
+                        <i class="bi bi-chevron-left"></i>
+                        Voltar
+                    </a>
+
+                    <button type="submit"
+                            class="btn btn-light rounded-pill px-4 fw-semibold" asp-action="Index" asp-controller="Barbeiro">
+                        Avançar
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>

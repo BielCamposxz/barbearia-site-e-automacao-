@@ -11,70 +11,48 @@
     <div class="d-inline">
         <form method="post">
             <div>
-                <div class="d-flex flex-row align-items-center barbeiro rounded-3 text-white justify-content-start">
-                    <div class="p-1">
-                        <img src="~/images/barbeiro1.jpg" height="70px" width="70px" alt="Alternate Text" class="rounded-1 me-1" />
-                    </div>
-                    <div class="flex-column">
-                        <p class="fs-5" style="color: #E8E8E8;">Gabriel campos <br><spam class="fs-6" style="color: #CFCFCF;">Funcao: Barbeiro</spam></p>
+
+                <!-- barbeiro -->
+                <div class="barbeiro-card d-flex align-items-center rounded-4 p-3 mb-3">
+                    <div class="me-3">
+                        <img src="~/images/barbeiro1.jpg"
+                             class="barbeiro-img"
+                             alt="Gabriel Campos">
                     </div>
 
-                    <div class="ms-auto">
-                        <input type="radio" class="btn-check" name="opcao" id="radio1" autocomplete="off">
+                    <div class="flex-grow-1">
+                        <h5 class="mb-1 text-white fw-semibold">
+                            Gabriel Campos
+                        </h5>
+                        <span class="funcao-badge">Barbeiro</span>
+                    </div>
+
+                    <div>
+                        <input type="radio" class="btn-check" name="barbeiro" id="radio1" autocomplete="off">
 
                         <label for="radio1" class="circle-check d-flex justify-content-center align-items-center">
-                            <i class="bi bi-check" style="color: #0c0c0c;"></i>
+                            <i class="bi bi-check"></i>
                         </label>
                     </div>
+
                 </div>
 
-                
-                <div class="d-flex flex-row align-items-center barbeiro rounded-3 text-white justify-content-start">
-                    <div class="p-1">
-                        <img src="~/images/barbeiro2.jpg" height="70px" width="70px" alt="Alternate Text" class="rounded-1 me-1" />
-                    </div>
-                    <div class="flex-column">
-                        <p class="fs-5" style="color: #E8E8E8;">felipe vigor <br><spam class="fs-6" style="color: #CFCFCF;">Funcao: Barbeiro</spam></p>
-                    </div>
-
-                    <div class="ms-auto">
-                        <input type="radio" class="btn-check" name="opcao" id="radio2" autocomplete="off">
-
-                        <label for="radio2" class="circle-check d-flex justify-content-center align-items-center">
-                            <i class="bi bi-check" style="color: #0c0c0c;"></i>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-row align-items-center barbeiro rounded-3 text-white justify-content-start">
-                    <div class="p-1">
-                        <img src="~/images/barbeiro3.jpg" height="70px" width="70px" alt="Alternate Text" class="rounded-1 me-1" />
-                    </div>
-                    <div class="flex-column">
-                        <p class="fs-5" style="color: #E8E8E8;">arhur santos <br><spam class="fs-6" style="color: #CFCFCF;">Funcao: Barbeiro</spam></p>
-                    </div>
-
-                    <div class="ms-auto">
-                        <input type="radio" class="btn-check" name="opcao" id="radio3" autocomplete="off">
-
-                        <label for="radio3" class="circle-check d-flex justify-content-center align-items-center">
-                            <i class="bi bi-check" style="color: #0c0c0c;"></i>
-                        </label>
-                    </div>
-                </div>
-
-                
-
-               <div class="d-flex justify-content-between" style="margin:15px;">
-                    <a class="btn btn-primary btn-back" role="button" asp-action="Index" asp-controller="Home" >
+                <!-- botoes -->
+                <div class="d-flex justify-content-between mt-4">
+                    <a class="btn btn-outline-light rounded-pill px-4"
+                       asp-action="Index"
+                       asp-controller="Home">
                         <i class="bi bi-chevron-left"></i>
                         Voltar
                     </a>
-                    <a class="btn btn-primary" role="button" style="background-color: white; color: black;">
+
+                    <button type="submit"
+                            class="btn btn-light rounded-pill px-4 fw-semibold" asp-action="Index" asp-controller="Servico">
                         Avançar
-                        <i class="bi bi-plus-lg"></i>
-                    </a>
-               </div>
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+
+                </div>
             </div>
         </form>
 

@@ -25,56 +25,93 @@ body {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-.selecionado {
-    border: 2px solid #6df1f3;
+.servico-card, .unidade-card,
+.barbeiro-card {
+    min-width: 80vw;
+    background: linear-gradient(145deg, #111111, #1a1a1a);
+    border: 1px solid #2a2a2a;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
-.barbearias {
-    padding: 5px 5px;
-    margin: 15px;
-    background-color: #4F4F4F;
+.servico-card.selecionado,
+.barbeiro-card.selecionado,
+.unidade-card.selecionado {
+    border: 1px solid #6df1f3;
+    box-shadow: 0 0 15px rgba(109, 241, 243, 0.25);
+}
+
+.preco {
+    color: #6df1f3;
+    font-weight: 600;
+}
+
+.tempo-badge {
+    background-color: #2a2a2a;
+    color: #bbbbbb;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+.barbeiro-card:hover,
+.unidade-card:hover,
+.servico-card:hover {
+    transform: translateY(-4px);
+    border-color: #6df1f3;
+}
+
+    .barbeiro-card:hover .barbeiro-img,
+    .unidade-card:hover .unidade-img,
+    selecionado {
+        border-color: #6df1f3;
+    }
+
+.funcao-badge,
+.unidade-badge {
+    background: #2a2a2a;
+    color: #bbbbbb;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.unidade-img, .barbeiro-img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #2a2a2a;
+    transition: 0.3s;
+}
+
+.endereco {
+    color: #9f9f9f;
+    font-size: 0.85rem;
 }
 
 .circle-check {
-    margin-left: 20px;
-    width: 27px;
-    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background-color: #4F4F4F;
-    cursor: pointer;
+    border: 1px solid #9C9C9C;
+    background: #2a2a2a;
     transition: 0.3s;
-    border: 1px solid #E8E8E8;
-    flex-shrink: 0;
-}
-
-.circle-check i {
-    display: none;
-    font-size: 24px;
 }
 
 .btn-check:checked + .circle-check {
-    background-color: white; 
+    background: white;
 }
 
-.btn-check:checked + .circle-check i {
-    display: block;
-}
-
-.btn-back {
-    background-color: #1C1C1C;
-    color: #9C9C9C;
-    border: none;
-}
-
-.btn-back:hover {
-    opacity: 1;
-    background-color: #1C1C1C;
-    color: #9C9C9C;
-}
-
-.barbeiro {
-    padding: 5px 10px;
-    margin: 15px;
-    background-color: #4F4F4F;
-    min-width: 60vw;
+.circle-check i {
+    color: #2a2a2a;
+    font-size: 18px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

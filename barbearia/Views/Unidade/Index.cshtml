@@ -3,61 +3,85 @@
     Layout = "_OpcoesLayout";
 }
 
-<div>
-    <h1 class="text-white fw-light text-center mt-3">
+<div class="container mt-4">
+
+    <h2 class="text-white fw-light text-center mb-4">
         Escolha uma unidade
-    </h1>
+    </h2>
 
-    <div class="d-inline">
-        <form method="post">
-            <div>
-                <div class="d-flex flex-row align-items-center barbearias rounded-3 text-white justify-content-start">
-                    <div class="p-1">
-                        <img src="~/images/fachada1.jpg" height="70px" width="70px" alt="Alternate Text" class="rounded-1 me-1" />
-                    </div>
-                    <div class="flex-column">
-                        <p class="fs-5" style="color: #E8E8E8;">Hoonigans Barber Company - unidade sao de firmino <br><spam class="fs-6" style="color: #CFCFCF;">Rua quinze de novembro, 5630, joinvile</spam></p>
-                    </div>
+    <form method="post">
 
-                    <div class="ms-auto">
-                        <input type="radio" class="btn-check" name="opcao" id="radio1" autocomplete="off">
-
-                        <label for="radio1" class="circle-check d-flex justify-content-center align-items-center">
-                            <i class="bi bi-check" style="color: #0c0c0c;"></i>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-row align-items-center barbearias rounded-3 text-white justify-content-start">
-                    <div class="p-1">
-                        <img src="~/images/fachada2.jpg" height="70px" width="70px" alt="Alternate Text" class="rounded-1 me-1" />
-                    </div>
-                    <div class="flex-column">
-                        <p class="fs-5" style="color: #E8E8E8;">Hoonigans Barber Company - unidade XV de novembro <br><spam class="fs-6" style="color: #CFCFCF;">Rua quinze de novembro, 5630, joinvile</spam></p>
-                    </div>
-
-                    <div class="ms-auto">
-                        <input type="radio" class="btn-check" name="opcao" id="radio2" autocomplete="off">
-
-                        <label for="radio2" class="circle-check d-flex justify-content-center align-items-center">
-                            <i class="bi bi-check" style="color: #0c0c0c;"></i>
-                        </label>
-                    </div>
-
-                </div>
-
-               <div class="d-flex justify-content-between" style="margin:15px;">
-                    <a class="btn btn-primary btn-back" role="button" asp-action="Index" asp-controller="Home" >
-                        <i class="bi bi-chevron-left"></i>
-                        Voltar
-                    </a>
-                    <a class="btn btn-primary" role="button" asp-action="Index" asp-controller="Barbeiro" style="background-color: white; color: black;">
-                        Avançar
-                        <i class="bi bi-plus-lg"></i>
-                    </a>
-               </div>
+        <!-- barbearia 1 -->
+        <div class="unidade-card d-flex align-items-center rounded-4 p-3 mb-3">
+            <div class="me-3">
+                <img src="~/images/fachada1.jpg"
+                     class="unidade-img"
+                     alt="Unidade São Firmino">
             </div>
-        </form>
 
-    </div>
+            <div class="flex-grow-1">
+                <h5 class="mb-1 text-white fw-semibold">
+                    Hoonigans Barber Company
+                </h5>
+                <span class="unidade-badge">Unidade São Firmino</span>
+                <p class="endereco mt-1 mb-0">
+                    Rua Quinze de Novembro, 5630 - Joinville
+                </p>
+            </div>
+
+            <div>
+                <input type="radio" class="btn-check" name="unidade" id="radio1" autocomplete="off">
+                <label for="radio1" class="circle-check d-flex justify-content-center align-items-center">
+                    <i class="bi bi-check"></i>
+                </label>
+            </div>
+
+        </div>
+        
+        <!-- barbearia 2 -->
+        <div class="unidade-card d-flex align-items-center rounded-4 p-3 mb-3">
+            <div class="me-3">
+                <img src="~/images/fachada2.jpg"
+                     class="unidade-img"
+                     alt="Unidade XV de Novembro">
+            </div>
+
+            <div class="flex-grow-1">
+                <h5 class="mb-1 text-white fw-semibold">
+                    Hoonigans Barber Company
+                </h5>
+                <span class="unidade-badge">Unidade XV de Novembro</span>
+                <p class="endereco mt-1 mb-0">
+                    Rua Quinze de Novembro, 5630 - Joinville
+                </p>
+            </div>
+
+            <div>
+                <input type="radio" class="btn-check" name="unidade" id="radio2" autocomplete="off">
+                <label for="radio2" class="circle-check d-flex justify-content-center align-items-center">
+                    <i class="bi bi-check"></i>
+                </label>
+            </div>
+
+        </div>
+         
+        <!-- botoes -->
+        <div class="d-flex justify-content-between mt-4">
+            <a class="btn btn-outline-light rounded-pill px-4"
+               asp-action="Index"
+               asp-controller="Home">
+                <i class="bi bi-chevron-left"></i>
+                Voltar
+            </a>
+
+            <button type="submit"
+                    class="btn btn-light rounded-pill px-4 fw-semibold" asp-action="Index" asp-controller="Barbeiro">
+                Avançar
+                <i class="bi bi-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </form>
+
 </div>
