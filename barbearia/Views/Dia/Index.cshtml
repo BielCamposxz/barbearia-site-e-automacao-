@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "_OpcoesLayout";
+    ViewData["title"] = "escolha dia e hora";
+}
+
+<h1 class="text-white text-center">data do agendamento</h1>
+
+<form method="post">
+    <input type="hidden" name="DataSelecionada" id="dataSelecionada">
+
+    <div class="calendar-wrapper text-light">
+
+        <div class="d-flex justify-content-between align-items-center mb-5">
+
+            <button type="button" class="btn btn-outline-info px-3" id="voltarMes">
+                <i class="bi bi-chevron-left fs-4"></i>
+            </button>
+
+            <h3 id="mesAno" class="m-0 text-info fw-bold"></h3>
+
+            <button type="button" class="btn btn-outline-info px-3" id="avancarMes">
+                <i class="bi bi-chevron-right fs-4"></i>
+            </button>
+
+        </div>
+
+        <div class="week-days text-center mb-4">
+            <div>Seg</div>
+            <div>Ter</div>
+            <div>Qua</div>
+            <div>Qui</div>
+            <div>Sex</div>
+            <div>Sáb</div>
+            <div>Dom</div>
+        </div>
+
+        <div id="calendarGrid">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+</form>

@@ -1,4 +1,5 @@
 wwwroot\css\Admin.css
+wwwroot\css\Opcoes.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\barbeiro1.jpg
@@ -69,9 +70,9 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\Opcoes.css
 wwwroot\js\site.js
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\css\Admin.css
+C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\css\Opcoes.css
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\css\site.css
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\favicon.ico
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -133,5 +134,4 @@ C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\lib\jquery\dist\jquery.
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\css\Opcoes.css
 C:\Users\figue\Meus projetos\barbearia\barbearia\wwwroot\js\site.js
